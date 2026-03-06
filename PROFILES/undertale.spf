@@ -1,0 +1,11 @@
+{
+    "profile" : "undertale",
+    "expand_user" : true,
+    "copy_all" : false,
+    "location" : "~/.config/UNDERTALE",
+    "files" : [
+        "file0",
+        "file9",
+        "undertale.ini"
+    ]
+}

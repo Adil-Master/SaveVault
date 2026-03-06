@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SaveVault</class>
+ <widget class="QMainWindow" name="SaveVault">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>608</width>
+    <height>455</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>SaveVault</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListView" name="SavesList">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>291</width>
+      <height>341</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(48, 48, 48);</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="CreateSave">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>30</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(26, 95, 180);</string>
+    </property>
+    <property name="text">
+     <string>Create save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Load_save">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>80</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(38, 162, 105);</string>
+    </property>
+    <property name="text">
+     <string>Load save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Delete_save">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>130</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(165, 29, 45);</string>
+    </property>
+    <property name="text">
+     <string>Delete save</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Reset_game">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>180</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(165, 29, 45);</string>
+    </property>
+    <property name="text">
+     <string>Reset game</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Show_in_explorer_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>380</y>
+      <width>291</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Show in explorer</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="saves_label">
+    <property name="geometry">
+     <rect>
+      <x>9</x>
+      <y>5</y>
+      <width>291</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Saves</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="Name_panel">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>330</y>
+      <width>291</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Name</string>
+    </property>
+    <widget class="QTextEdit" name="name_textedit">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="ok_btn">
+     <property name="geometry">
+      <rect>
+       <x>-6</x>
+       <y>50</y>
+       <width>301</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(38, 162, 105);</string>
+     </property>
+     <property name="text">
+      <string>OK</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QGroupBox" name="Name_panel_2">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>250</y>
+      <width>291</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="title">
+     <string>Game profile</string>
+    </property>
+    <widget class="QPushButton" name="ok_btn_combo_box">
+     <property name="geometry">
+      <rect>
+       <x>-6</x>
+       <y>50</y>
+       <width>301</width>
+       <height>31</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color: rgb(38, 162, 105);</string>
+     </property>
+     <property name="text">
+      <string>OK</string>
+     </property>
+    </widget>
+    <widget class="QComboBox" name="GameProfileCombobox">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>20</y>
+       <width>291</width>
+       <height>31</height>
+      </rect>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>608</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuProfiles">
+    <property name="title">
+     <string>Profiles</string>
+    </property>
+    <addaction name="Show_list"/>
+    <addaction name="Show_in_explorer"/>
+    <addaction name="Install"/>
+   </widget>
+   <widget class="QMenu" name="About">
+    <property name="title">
+     <string>About</string>
+    </property>
+   </widget>
+   <addaction name="menuProfiles"/>
+   <addaction name="About"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="Show_list">
+   <property name="text">
+    <string>Show list</string>
+   </property>
+  </action>
+  <action name="Show_in_explorer">
+   <property name="text">
+    <string>Show in explorer</string>
+   </property>
+  </action>
+  <action name="Install">
+   <property name="text">
+    <string>Install</string>
+   </property>
+  </action>
+  <action name="actionDelete">
+   <property name="text">
+    <string>Delete</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
